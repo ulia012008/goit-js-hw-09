@@ -1,0 +1,19 @@
+.gallery {
+    list-style: none;
+    width: 1128px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 24px;
+    margin: 0, auto;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
